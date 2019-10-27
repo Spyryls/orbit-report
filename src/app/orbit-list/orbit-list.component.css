@@ -26,3 +26,14 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+.warning {
+    background: red;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
