@@ -27,10 +27,10 @@ th, td {
     padding: 6px;
 }
 
-/* .warning {
+.warning {
     background: red;
     animation: blinker 1s linear infinite;
-} */
+}
 
 @keyframes blinker {
     50% {
