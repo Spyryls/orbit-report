@@ -22,13 +22,12 @@ export class AppComponent {
 
         let fetchedSatellites = data.satellites;
         for (let i = 0; i < fetchedSatellites.length; i++) {
-          let satellite = {
-            name: <string> fetchedSatellites[i].name,
-            type: <string> fetchedSatellites[i].type,
-            launchDate: <string> fetchedSatellites[i].launchDate,
-            orbitType: <string> fetchedSatellites[i].orbitType,
-            operational: <string> fetchedSatellites[i].operational
-          }
+          let satellite = new Satellite(
+            fetchedSatellites[i].name, 
+            fetchedSatellites[i].type, 
+            fetchedSatellites[i].launchDate, 
+            fetchedSatellites[i].orbitType, 
+            fetchedSatellites[i].operational);
           this.sourceList.push(satellite);
         }
         this.displayList = this.sourceList.slice(0);
