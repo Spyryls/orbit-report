@@ -38,3 +38,7 @@ th, td {
       opacity: 0;
     }
   }
+
+  h3 {
+      color: burlywood;
+  }
