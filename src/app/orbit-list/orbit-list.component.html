@@ -1,5 +1,5 @@
 <h3>Orbit Report</h3>
-<table>
+<table class="centered">
     <tr class="header-row">
         <th class="sortable" button (click)="sort('name')">Name</th>
         <th class="sortable" button (click)="sort('type')">Type</th>
@@ -15,5 +15,3 @@
         <td>{{ satellite.launchDate }}</td>
     </tr>
 </table>
-
-<!-- [class.warning]="satellite.shouldShowWarning()" -->

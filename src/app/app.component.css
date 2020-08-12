@@ -1,13 +1,17 @@
 .search-form {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
+    cursor: crosshair;
 }
 
 button {
     margin-left: 10px;
-    color: #fff;
-    background-color: #648bc5;
+    color: burlywood;
+    background-color: #2a4670;
     border-radius: 4px;
     padding: 2px 5px;
     font-size: 18px;
-    cursor: pointer;
+    cursor: crosshair;
 }
+
