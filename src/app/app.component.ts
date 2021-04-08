@@ -11,8 +11,8 @@ import { SourceListMap } from 'source-list-map';
 
 export class AppComponent {
   title = 'orbit-report';
-  sourceList: Satellite[] = [];
-  displayList: Satellite[] = []; 
+  sourceList: Satellite[];
+  displayList: Satellite[]; 
 
   constructor() {
     this.sourceList = [];
@@ -46,8 +46,7 @@ export class AppComponent {
           matchingSatellites.push(this.sourceList[i]);
        }
     }
-  
-    this.displayList = matchingSatellites;
+      this.displayList = matchingSatellites;
  }
 
 }
